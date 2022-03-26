@@ -8,7 +8,7 @@
          "Mehmetbaba",
          "Sohbetdestek"
       ],   
-   "repository": "https://github.com/Mehmetbaba55/Confessionbot",
+   "repository": "https://github.com/mkayunuss/Confessionbot",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini buraya yazın",
