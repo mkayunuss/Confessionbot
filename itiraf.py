@@ -34,11 +34,11 @@ async def start(event):
      await client.send_message(log_qrup, f"ℹ️ **Yeni itirafçı-** {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.inline("💌 Etiraf Yaz", data="etiraf")
+                       Button.inline("💌 İtiraf Yaz", data="etiraf")
                       ],
                       [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/Sohbetdestek'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mahoaga')]
+                      [Button.url('📣 Support', f'https://t.me/y10itiraf'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mkaofc')]
                     ),
                     link_preview=False)
 
@@ -56,8 +56,8 @@ async def handler(event):
                        Button.inline("💌 İtiraf Yaz", data="etiraf")
                       ],
                       [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/Sohbetdestek'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mahoaga')]
+                      [Button.url('📣 Support', f'https://t.me/y10itiraf'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mkaofc')]
                     ),
                     link_preview=False)
 
